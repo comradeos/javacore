@@ -11,4 +11,4 @@ public class Main {
     }
 }
 
-// 1 2 3 4 5 6 7 8 9 0
+// print your name 1000 times using no loops
