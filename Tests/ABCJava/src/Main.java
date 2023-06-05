@@ -1,5 +1,17 @@
+interface MyInterface {
+    public static String name = null;
+    public static Integer age = null;
 
+    public static void showInfo()
+    {
+        System.out.println(name + age);
+    }
+}
 
+class MyClass implements MyInterface {
+    public static String name = "Name";
+    public static Integer age = 123;
+}
 
 
 public class Main {
