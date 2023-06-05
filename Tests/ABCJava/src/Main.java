@@ -1,7 +1,7 @@
 interface MyInterface {
-    String name = null;
-    Integer age = null;
-    void showInfo();
+    public String name = null;
+    public Integer age = null;
+    public void showInfo();
 }
 
 class MyClass implements MyInterface {
