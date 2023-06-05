@@ -7,12 +7,17 @@ interface MyInterface {
 class MyClass implements MyInterface {
     public String name = "Name";
     public Integer age = 123;
-    public void showInfo() {}
+    public void showInfo() {
+        String message = String.format("Hello, my name is %s! I'm %s years old!",
+                this.name, this.age);
+        System.out.println(message);
+    }
 }
 
 
 public class Main {
     public static void main(String[] args) {
         MyClass myClass = new MyClass();
+        myClass.showInfo();
     }
 }
